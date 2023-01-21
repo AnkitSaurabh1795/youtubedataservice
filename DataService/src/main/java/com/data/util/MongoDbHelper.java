@@ -13,12 +13,12 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import static com.data.util.constants.constant.MONGO_URI;
 import static com.mongodb.client.model.Filters.eq;
 
 @Component
 @RequiredArgsConstructor
 public class MongoDbHelper {
-    private final String MONGO_URI = "mongodb://localhost:27017";
     String COLLECTION_NAME = "video";
     MongoClient mongoClient = MongoClients.create(MONGO_URI);
     MongoDatabase database = mongoClient.getDatabase("youtubedata");
