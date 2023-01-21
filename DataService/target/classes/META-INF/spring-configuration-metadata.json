@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "db-config",
+      "type": "com.data.util.DbConfig",
+      "sourceType": "com.data.util.DbConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "db-config.dbname",
+      "type": "java.lang.String",
+      "sourceType": "com.data.util.DbConfig"
+    },
+    {
+      "name": "db-config.uri",
+      "type": "java.lang.String",
+      "sourceType": "com.data.util.DbConfig"
+    }
+  ],
+  "hints": []
+}
